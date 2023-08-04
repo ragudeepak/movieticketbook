@@ -1,0 +1,42 @@
+.login-container
+{
+  padding-left: 500px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: url("https://media.istockphoto.com/id/1281150061/vector/register-account-submit-access-login-password-username-internet-online-website-concept.jpg?s=612x612&w=0&k=20&c=9HWSuA9IaU4o-CK6fALBS5eaO1ubnsM08EOYwgbwGBo=");
+  
+ 
+}
+@media screen and (max-width:768px) {
+    .login-container{
+        width: 100%;
+    }
+}
+
+
+.card{
+    padding: 40px;
+    width: 45%;
+    border: none;
+    background-color: #c58181;
+}
+@media screen and (max-width:768px) {
+    .card{
+        width: 100%;
+    }
+}
+
+.heading{
+    font-family: "Bree Serif";
+    font-size: 26px;
+}
+
+.image{
+    height: 50vh;
+    width: 44%;
+}
+@media screen and (max-width:768px) {
+    .image{
+        display: none;
+    }
+}
